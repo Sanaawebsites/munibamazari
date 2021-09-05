@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+ <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+
+  <link rel="stylesheet" href="Mycssfile.css">
+
+<style>
+
+
+body{
+
+  background-color:;
+}
+.navbar-light .navbar-brand {
+    color: white;
+  font-family: Aldhabi;
+font-weight:bold;
+
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.bg-light {
+    background-color: #CFC278 !important;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+   font-size:25px;
+font-weight:bold;
+color:#F8F8FF;
+padding:10px 15px;
+font-family: "Georgia";
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+   text-decoration:underline;
+ text-decoration-color:black;
+}
+
+
+
+/*end navbar*/
+
+
+.img-fluid{
+
+width:100%;
+height:400px;
+
+
+}
+
+
+/*end img under navbar*/
+
+
+
+
+
+/*photo gallary*/
+
+.photo-gallery {
+  color:#313437;
+  background-color:#F5ECCE;
+   width:100%;
+
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+ font-size:50px;
+font-family:"Time New Roman";
+word-spacing:1px;
+
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+
+}
+
+
+ .photo-gallery .item {
+   
+    padding: 20px 20px;
+}
+
+
+
+.item img{
+width:100%;
+border-radius:5px;
+border: 3px solid #CFC278;
+}
+
+.item img:hover{
+transform:scale(.9,.9);
+transition: .3s transform;
+
+}
+
+.row {
+    margin-right: 10px;
+    margin-left: 10px;
+  
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding:20px 15px;
+}
+
+/* end photo gallary*/
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body  dir="rtl">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">منيبا مزاري</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">من هي   <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mdrawing.html">لوحاتها</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">حساباتها</a>
+      </li>
+
+     
+    </ul>
+  </div>
+</nav>
+
+<div class="text-center">
+<img src="m14.jpg" class="img-fluid" alt="Responsive image">
+</div>
+
+
+
+
+
+<div class="photo-gallery">
+
+     <div class="container-fulled">
+            <div class="intro">
+                <h2 class="text-center">لوحاتها الفنية </h2>
+                <p class="text-center">قرار منيبا  لدخول عالم الفن من خلال الرسم هو قصة امرأة قررت أنه من خلال الاعتماد على الذات والشجاعة والتصميم فإن الفن هو كل ما تحتاجه للتواصل. </p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md1.jpg" data-lightbox="photos" download><img class="img-fluid" src="md1.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md2.jpg" data-lightbox="photos"><img class="img-fluid" src="md2.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md3.jfif" data-lightbox="photos"><img class="img-fluid" src="md3.jfif" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md4.jpg" data-lightbox="photos"><img class="img-fluid" src="md4.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md5.jfif" data-lightbox="photos"><img class="img-fluid" src="md5.jfif" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md6.jpg" data-lightbox="photos"><img class="img-fluid" src="md6.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+
+               <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md9.jpg" data-lightbox="photos"><img class="img-fluid" src="md9.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+               <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md8.jpg" data-lightbox="photos"><img class="img-fluid" src="md8.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+               <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="md10.jpg" data-lightbox="photos"><img class="img-fluid" src="md10.jpg" style="width:100%; height:300px;"  title="اطبع الصورة"></a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
